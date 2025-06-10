@@ -1,4 +1,4 @@
-# 🏦 Bank Management System in Java
+# 🏦 Bank Management System in Java (with JDB)
 
 A simple Java banking system project using Object-Oriented Programming principles and MySQL database integration via JDBC.
 
