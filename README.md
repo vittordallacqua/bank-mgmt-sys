@@ -2,8 +2,6 @@
 
 A simple Java banking system project using Object-Oriented Programming principles and MySQL database integration via JDBC.
 
----
-
 ## 🧩 Project Overview
 
 **Purpose:**  
@@ -13,8 +11,6 @@ Simulate basic banking operations such as account creation, deposit, withdrawal,
 - **Language:** Java  
 - **Paradigm:** Object-Oriented Programming (OOP)  
 - **Database:** MySQL (via JDBC)  
-
----
 
 ## 🗂️ Project Structure
 
@@ -35,7 +31,7 @@ BankJavaSQL/
 └── README.md
 ```
 
-### 💠 Main Components
+## 💠 Main Components
 
 - **`model/Account.java`**  
   Defines the `Account` class with fields like account number, owner name, and balance.
@@ -52,8 +48,6 @@ BankJavaSQL/
 - **`resources/db.properties`**  
   Configuration file for JDBC connection (URL, username, password).
 
----
-
 ## 🔧 Features
 
 - Create a new bank account
@@ -61,8 +55,6 @@ BankJavaSQL/
 - Perform withdrawals
 - Check account balance
 - List all accounts
-
----
 
 ## 🧪 Running the Project
 
@@ -105,16 +97,12 @@ java -cp .:lib/mysql-connector-java-x.x.x.jar src/Main
 ```
 ```Note: On Windows, use ; instead of : for classpath separation.```
 
----
-
-# 📌 Technical Notes
+## 📌 Technical Notes
 - OOP Principles: Encapsulation, abstraction, separation of concerns.
 
 - JDBC Integration: All SQL operations use the Java Database Connectivity API.
 
 - Error Handling: Proper exception handling with try-catch blocks to manage SQL and connection errors.
-
----
 
 # 📎 License
 This project is licensed under the MIT License.
