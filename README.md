@@ -1,18 +1,11 @@
-# 🏦 Bank Management System in Java (with JDBC)
+# Bank Management System in Java (with JDBC)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![JAVA](https://img.shields.io/badge/Built_with-Java-Orange)
 
 A simple Java banking system project using Object-Oriented Programming principles and MySQL database integration via JDBC.
 
-## 🧩 Project Overview
-
-**Purpose:**  
-Simulate basic banking operations such as account creation, deposit, withdrawal, and balance checking with data persisted in a relational database.
-
-**Technologies Used:**
-- **Language:** Java  
-- **Paradigm:** Object-Oriented Programming (OOP)  
-- **Database:** MySQL (via JDBC)  
-
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 BankJavaSQL/
@@ -31,7 +24,7 @@ BankJavaSQL/
 └── README.md
 ```
 
-## 💠 Main Components
+## Main Components
 
 - **`model/Account.java`**  
   Defines the `Account` class with fields like account number, owner name, and balance.
@@ -48,7 +41,7 @@ BankJavaSQL/
 - **`resources/db.properties`**  
   Configuration file for JDBC connection (URL, username, password).
 
-## 🔧 Features
+## Features
 
 - Create a new bank account
 - Make deposits
@@ -56,7 +49,7 @@ BankJavaSQL/
 - Check account balance
 - List all accounts
 
-## 🧪 Running the Project
+## Running the Project
 
 ### 1. Setup Database
 
@@ -97,12 +90,12 @@ java -cp .:lib/mysql-connector-java-x.x.x.jar src/Main
 ```
 ```Note: On Windows, use ; instead of : for classpath separation.```
 
-## 📌 Technical Notes
+## Technical Notes
 - OOP Principles: Encapsulation, abstraction, separation of concerns.
 
 - JDBC Integration: All SQL operations use the Java Database Connectivity API.
 
 - Error Handling: Proper exception handling with try-catch blocks to manage SQL and connection errors.
 
-# 📎 License
+# License
 This project is licensed under the MIT License.
