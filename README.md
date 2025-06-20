@@ -1,7 +1,7 @@
 # Bank Management System in Java (with JDBC)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-![JAVA](https://img.shields.io/badge/Built_with-Java-Orange)
+![JAVA](https://img.shields.io/badge/Built_with-Java-orange)
 
 A simple Java banking system project using Object-Oriented Programming principles and MySQL database integration via JDBC.
 
