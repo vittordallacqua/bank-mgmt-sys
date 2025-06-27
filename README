@@ -15,8 +15,10 @@ How to run:
 
 * Make sure `mysql-connector-java` is in your classpath.
 
-  > javac -cp lib/mysql-connector-java-x.x.x.jar src/**/*.java
-  > java -cp .:lib/mysql-connector-java-x.x.x.jar src/Main
+  > git clone https://github.com/vittordallacqua/bank-sys.git
+  > cd bank-sys
+  > javac src/**/*.java
+  > java -cp src Main
 
 Using VS Code:
 
